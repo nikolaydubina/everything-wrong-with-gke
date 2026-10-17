@@ -14,6 +14,6 @@ GKE severely over-provisions cpu and memory for system.
 - GKE does not allow to set cpu for CSI and keeps restting it to 120m / node
 - GKE nodes have less memory than hardware node support (4 GB node has 3 GB availble to K8S) [^1]
 
-Your effective memory and CPU is reduced (1GB is taken away immediately), out of remaning 1 CPU is burning all the time for idle empty system.
+Your effective memory and CPU is reduced (1GB is taken away immediately), out of remaning 0.5 CPU / node is burning all the time for idle empty node.
 
 [^1]: https://docs.cloud.google.com/kubernetes-engine/docs/concepts/plan-node-sizes

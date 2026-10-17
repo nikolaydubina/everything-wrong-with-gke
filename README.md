@@ -16,4 +16,6 @@ GKE severely over-provisions cpu and memory for system.
 
 Your effective memory and CPU is reduced (1GB is taken away immediately), out of remaning 0.5 CPU / node is burning all the time for idle empty node.
 
+If you have `e2-standard-2` you have only 0.5 CPU (**25%**) and 4GB (**50%**) left for any useful workload, you paying for **75%** of CPU and **50%** of memory for "system".
+
 [^1]: https://docs.cloud.google.com/kubernetes-engine/docs/concepts/plan-node-sizes

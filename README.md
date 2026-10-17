@@ -18,4 +18,6 @@ Your effective memory and CPU is reduced (1GB is taken away immediately), out of
 
 If you have `e2-standard-2` you have only 0.5 CPU (**25%**) and 4GB (**50%**) left for any useful workload, you paying for **75%** of CPU and **50%** of memory for "system".
 
+If you have `e2-standard-4` you have only 2.5 CPU (**65%**) and 11GB (**86%**) left for any useful workload, you paying for **35%** of CPU and **14%** of memory for "system".
+
 [^1]: https://docs.cloud.google.com/kubernetes-engine/docs/concepts/plan-node-sizes
